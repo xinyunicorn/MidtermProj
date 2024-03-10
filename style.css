@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+	background-color: #f5eecc;
+	color: #6f5e53;
+}
+
+p{
+	display: flex;
+	justify-content: center;
+	font-weight: heavy;
+}
+
+a{
+	color: #6f5e53;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	font-family: Protest Revolution;
+	font-size: 60pt;
+	color: #4f331f;
+	margin-bottom: 50px;
+	border-bottom: thick double #4f331f;
+}
+
+.title{
+	margin-left: 180px;
+}
+.title1{
+	margin-left: 275px;
+}
+.title2{
+	margin-left: 215px;
+}
+.title3{
+	margin-left: 260px;
+}
+.title4{
+	margin-left: 250px;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header_img {
+	width: 23%;
+  	object-fit: cover;
+  	margin-left: 50px;
+}
+
+.home_txt{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	width: 75%;
+	font-weight: bolder;
+}
+
+.recipe_img{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.recipe_lnk{
+	width: 500px;
+  	object-fit: cover;
+  	margin: 10px;
+  	margin-inline: 75px;
+  	aspect-ratio: 1/1;
+}
+
+.recipe_lnk:hover{
+	opacity: 70%;
+}
+
+.caption{
+	font-size: 20pt;
+	font-family: Shantell Sans;
+	margin-bottom: 50px;
+	margin-top: 15px;
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+}
+
+.label{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-size: 50pt;
+	font-family: Caveat Brush;
+}
+
+.link{
+	display: flex;
+	justify-content: center;
+	font-size: 23pt;
+	font-family: Shantell Sans;
+	width: 230px;
+	margin: 30px;
+  	font-weight: bolder;
+}
+
+.tripleColumn {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  margin-bottom: 50px;
+
+}
+
+.pic {
+  width: 32%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.link:hover{
+	background-color: #e0d1c8;
+}
+
+.text {
+	font-size: 30pt;
+	font-family: Caveat;
+	width: 90%;
+}
+
+.red{
+	color: #f4796b;
+}
+
+.blue{
+	color: #8ea8c3;
+}
