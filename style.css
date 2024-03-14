@@ -16,6 +16,7 @@ p{
 
 a{
 	color: #6f5e53;
+	text-decoration: none;
 }
 
 .header{
@@ -30,6 +31,9 @@ a{
 
 .title{
 	margin-left: 180px;
+}
+.titleh{
+	margin-left: 100px;
 }
 .title1{
 	margin-left: 275px;
@@ -52,8 +56,8 @@ a{
 
 .header_img {
 	width: 23%;
-  	object-fit: cover;
-  	margin-left: 50px;
+	object-fit: cover;
+	margin-left: 50px;
 }
 
 .home_txt{
@@ -71,16 +75,22 @@ a{
 	align-content: center;
 }
 
-.recipe_lnk{
+.recipe_lnk, .recipe_lnk2{
 	width: 500px;
-  	object-fit: cover;
-  	margin: 10px;
-  	margin-inline: 75px;
-  	aspect-ratio: 1/1;
+	object-fit: cover;
+	margin: 10px;
+	margin-inline: 75px;
+	aspect-ratio: 1/1;
+	box-shadow: 10px 10px 5px #ccc;
+	filter: brightness(1.1);
 }
 
 .recipe_lnk:hover{
-	opacity: 70%;
+	transform: rotate(10deg);
+}
+
+.recipe_lnk2:hover{
+	transform: rotate(-10deg);
 }
 
 .caption{
@@ -103,14 +113,19 @@ a{
 	font-family: Caveat Brush;
 }
 
-.link{
+.link {
 	display: flex;
 	justify-content: center;
 	font-size: 23pt;
 	font-family: Shantell Sans;
 	width: 230px;
 	margin: 30px;
-  	font-weight: bolder;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.link > a:hover {
+	color: #b5a79e;
 }
 
 .tripleColumn {
@@ -126,10 +141,11 @@ a{
   aspect-ratio: 1/1;
   object-fit: cover;
   margin: 5px;
+  transition: all 1s ease;
 }
 
-.link:hover{
-	background-color: #e0d1c8;
+.pic:hover{
+	transform: scale(1.1);
 }
 
 .text {
